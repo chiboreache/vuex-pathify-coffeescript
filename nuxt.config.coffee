@@ -32,7 +32,7 @@ module.exports =
     }
   plugins:
     [
-      '~/store/index.coffee'
+      './store/index.coffee'
     ]
   modules:
     [

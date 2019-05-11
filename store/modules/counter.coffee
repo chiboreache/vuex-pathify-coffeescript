@@ -11,6 +11,8 @@ export mutations =
     # add manual mutation
     INCREMENT: (state) ->
       state.value++
+    INCTEN: (state) ->
+      state.value += 10
   }
 
 export default
